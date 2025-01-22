@@ -18,7 +18,7 @@ input[type=text]{
     color: gray;
     margin 0 0 0 5px;
 } 
-input[type=sunbmit]{
+input[type=sunbmit] {
     font-size:14px;
     width: 200px;
     margin: 20px;
@@ -30,7 +30,7 @@ input[type=submit]:hover {
     color: black;
 }
 
-.header .headerlinks {
+.heading .headerlinks {
     color: black;
     display: flex;
     align-items: center;
@@ -43,5 +43,5 @@ input[type=submit]:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 95vh;
 }
