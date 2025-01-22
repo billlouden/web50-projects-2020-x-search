@@ -31,6 +31,12 @@ input[type=submit]:hover {
     color: black;
 }
 
+.heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .heading .headerlinks {
     color: black;
     display: flex;
@@ -40,6 +46,7 @@ input[type=submit]:hover {
     margin-left:auto;
     padding: 10px 20px;
 }
+
 .search-bar{
     display: flex;
     justify-content: center;
