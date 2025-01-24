@@ -15,22 +15,25 @@ input focus-visible {
 }
 input[type=text]{
     <!-- give input text a gray color-->
-    color: gray;
-    margin 0 0 0 1px;
+    color: red;
+    margin: 1px;
 } 
 
 input[type=submit] {
     font-size:14px;
     width: 150px;
     margin: 20px;
-    border-width: 1px;
+    border-width: 0px;
     border-radius: 15px;
 }
 input[type=submit]:hover {
     background-color: #fef5f5;
     color: black;
 }
-
+.subtext{
+    font-size: 12px;
+    color: dodgerblue);
+}
 .heading {
     display: flex;
     justify-content: space-between;
@@ -47,18 +50,33 @@ input[type=submit]:hover {
     padding: 10px 20px;
 }
 
-.search-bar{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 25vh;
-}
-
-.search-container {
+.search-container{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    border-radius: 25px;
-    border: 1px; 
+    border: none;
+    height: 35vh;
+}
+.search-container .search-field {
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    align-items: center;
+    border: 1px solid; 
     padding: 10px;
+}
+.search-container .search-field input {
+    border: none;
+    border-radius: 30px;
+
+}
+.search-container .search-field input:focus {
+    outline: none;
+}
+.search-container .subtext {
+    color:blue;
+    position: relative;
+    left: -100px
+    top: -20px;
 }
