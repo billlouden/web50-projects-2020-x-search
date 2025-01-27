@@ -16,7 +16,7 @@ input focus-visible {
 }
 input[type=text]{
     <!-- give input text a gray color-->
-    color: blue;
+    color: gray;
     margin: 5px;
 } 
 
@@ -79,7 +79,29 @@ input[type=submit]:hover {
     color:blue;
     position: relative;
     left: 125px;
-    top: -20px;
+    top: -10px;
     white-space: nowrap
 }
+.button {
+    background-color: blue;
+    color: white;
+    max-width: 150px;
+    border-radius: 0px;
+    border: 1 px solid;
+    float: right;
+}
+.advanced-search-box {
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    align-items: right;
+    border: 1px solid; 
+    padding: 10px;
+    border: none;
+    height: 20vh;
+}
+.form-group {
+    display: flex;
 
+    padding: 10px;
+}
