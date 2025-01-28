@@ -8,7 +8,7 @@ A quick overview of the first assignment of CS50 Web Programming: a simple clone
 
 
 ## Youtube Video
-There is a short video where I go through the required specifications of the project: https://www.youtube.com/watch?v=VnJctVoojwc
+color: red There is a short video where I go through the required specifications of the project: 
 
 ## Assignment specification
 - **Pages**. Your website should have at least three pages: one for Google Search, one for Google Image Search, and one for Google Advanced Search.
